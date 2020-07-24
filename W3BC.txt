@@ -1,0 +1,52 @@
+1.Gaussian Distribution:
+It tells us about how the values of a variable are distributed symmetrically around its center in a form of bell shape i.e. the right side of the center is mirror image of left side.
+Hence we can say that men,median and mode are equal.
+It is a special binomial distribution where no. of trials is large and applied to large no. of variables.Therefore it is called as Normal distribution.
+
+Example:Marks,height of a student
+
+
+2.Binomial Distribution:
+The term bi in binomial means two where we have only two outcome of fixed 'n' inderpendent trails is known as Binomial Distribution.
+It is also known as mother of all other distribution from where they are obtained. 
+
+Example:Outcome of head in tossing a coin is either yes(success) or no(failure).
+
+Difference between Gaussian Distribution and Binomail Distribution:
+
+Binomial is discrete while Gaussian is continous.
+Binomail has finite event and Gaussian has infinte event.
+
+
+3.Logistic Regression:
+
+It is a classification algorithm which is used to find the relationship between feature and probability of outcome.
+The main idea is the transformation of linear regression using sigmoid function.
+The output is bounded between (0 and1) / (yes or No) of any event.
+Suppose if we use equation Y=mX+C where we get a value of Y as (0,1) irrespective of whatever value is given to X.
+Tpes of LR : Binary LR,Normal LR, Poisson LR and Ordinal LR.
+
+Example: Breast Cancer Prediction,Credit Card fraud, Email Spam detection
+
+
+4. Decison Tree :
+
+It is a classification and prediction technique in a form of flowchart/tree like struchture where 
+each node represent a test on a feature/attribute and each branch represent an outcome of the test.A terminal node holds a class label.
+It breaks down the dataset into smaller subset.
+Decision Tree handles both continous and categorical variables.
+Decision Tree is a series of yes/no question in a data.
+The algorithm which works behind Decision Tree is ID3 which uses entropy(randomness) and information gain.
+Decision Tree is constructed based on the attributes which has high Information gain.
+
+
+5.Random Forest:
+As name forest suggest amalgamation of many decision trees or we can say Decision Tree is backbone of Random Forest and collate all Decision Tree to get more accurate and stable prediction based on ensemble technique.
+It uses bagging(picking a sample of features rather than all) on different features to make decision to train diffrent sets of data.
+Here random is used in each Decision Tree where it is trained using a random sample with replacement from training set.and random subset of features are used for searching for splits.
+The number of rows in a dataset tell us about number of trees in a random forest.
+
+
+
+
+
